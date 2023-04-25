@@ -1,10 +1,11 @@
 {
-  "name": "note-taker",
+  "name": "express-note-taker",
   "version": "1.0.0",
   "description": "An application making notes.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Himali Panchal",
   "license": "ISC",
@@ -14,5 +15,6 @@
     "uuid": "^8.3.2",
     "v1": "^1.0.0",
     "v4": "0.0.1"
-  }
+  },
+  "keywords": []
 }
